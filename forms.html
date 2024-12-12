@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+   
+</head>
+<body>
+    <form>
+        <h1 align="Center"><U>REGISTRATION FORM</U></h1>
+        <p>
+            ENTER YOUR FULL NAME:
+            <input  type="text" required  />
+    
+        </p>
+    
+        <p>
+            ENTER YOUR E-MAIL:
+            <input  placeholder="abc@gmail.com" type="email" required/>
+        </p>
+    
+
+    
+        <p>ENTER YOUR BIRTHDATE:
+            <input type="Date"/> 
+        </p>
+    
+        <p>
+            ENTER YOUR PASSWORD
+            <input placeholder="Enter password" type="password"  maxlength="20" required/>
+        </p>
+
+        <p>
+            INSERT YOUR PICTURE
+            <input type="file">
+        </p>
+    
+      
+        <p>
+          CHOOSE YOUR GENDER
+         <input id="male" type="Radio" Value="Male" name="GENDER"><label for="male"> Male</label>
+         <input id="female" type="Radio" value="Female " name="GENDER"><label for="female"> Female</label>  
+        </p>
+    
+        <p>
+            SELECT THE COUNTRY:
+            <input type="checkbox" Value="PAKISTAN" name="COUNTRY">PAKISTAN
+            <input type="checkbox" Value="VIETNAM" name="COUNTRY">VIETNAM
+            <input type="checkbox" Value="USA"name="COUNTRY">USA
+            <input type="checkbox" Value="LUXEMBORG" name="COUNTRY">SRILANKA 
+            <input type="checkbox" Value="COUNTRY" name="COUNTRY">BANGLADESH
+            <input type="checkbox" Value="UK" name="COUNTRY">UK
+     </p>
+    
+     <p>
+         SELECT THE CITY:
+         <br>  <!--option or value ki value same rakho -->
+        <select name="CITY" id="" multiple>
+         <option value="Karachi" selected> Karachi</option>
+         <option value="Lahore">Lahore</option>
+         <option value="Hyderabad">Hyderabad</option>
+         <option value="Sukkur">Sukkur</option>
+         <option value="New York">New York</option>
+         
+        </select>
+     </p>
+    
+
+     <p>
+        SEND FEEDBACK:
+        <br>
+        <textarea  placeholder="write here" name="comments" > </textarea>
+     </p>
+ 
+    
+     <input type="submit"/>
+     </form>
+    <br>
+    <br>
+    <br>
+    <a href="/index.html">BACK</a>
+</body>
+</html>
